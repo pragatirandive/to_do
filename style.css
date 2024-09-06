@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(201, 187, 162);
+}
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height:20vh ;
+    min-width: 27vh;
+}
+.task-list {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+.task-list li {
+    margin-bottom: 10px;
+}
+.task-list li.completed {
+    text-decoration: line-through;
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 0.5rem;
+
+}
